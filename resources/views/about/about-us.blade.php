@@ -1,20 +1,20 @@
 @extends('layout.app')
 
-@section('title', 'Comics')
-
+@section('title', 'About-us')
 
 @section('content')
 
+
 <section class="text-center">
     <div class="container">
-        <h1 class="py-5">WELCOME COMICS GUYS!</h1>
+        <h1 class="py-5">ABOUT US!</h1>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-4">
                 <div class="card">
                     <div class="card-header">
-                        <img src="https://th.bing.com/th/id/R.8a6c968a9972767bf6747097cf4f88b3?rik=pCh94bUSX8y86w&pid=ImgRaw&r=0"
+                        <img src="https://th.bing.com/th/id/OIP.WpnGIPj1DKAGo-CP64znTwHaHa?rs=1&pid=ImgDetMain"
                             alt="">
                     </div>
                     <div class="card-body">
@@ -25,7 +25,7 @@
             <div class="col-4">
                 <div class="card">
                     <div class="card-header">
-                        <img src="https://th.bing.com/th/id/R.8a6c968a9972767bf6747097cf4f88b3?rik=pCh94bUSX8y86w&pid=ImgRaw&r=0"
+                        <img src="https://th.bing.com/th/id/OIP.WpnGIPj1DKAGo-CP64znTwHaHa?rs=1&pid=ImgDetMain"
                             alt="">
                     </div>
                     <div class="card-body">
@@ -36,7 +36,7 @@
             <div class="col-4">
                 <div class="card">
                     <div class="card-header">
-                        <img src="https://th.bing.com/th/id/R.8a6c968a9972767bf6747097cf4f88b3?rik=pCh94bUSX8y86w&pid=ImgRaw&r=0"
+                        <img src="https://th.bing.com/th/id/OIP.WpnGIPj1DKAGo-CP64znTwHaHa?rs=1&pid=ImgDetMain"
                             alt="">
                     </div>
                     <div class="card-body">
@@ -48,5 +48,7 @@
         </div>
     </div>
 </section>
+
+
 
 @endsection
