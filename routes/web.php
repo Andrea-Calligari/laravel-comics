@@ -23,7 +23,10 @@ Route::get('/home', function () {
 
 Route::get('/comics', function (){
 
-    return view('partials.comics');
+
+    $comics = config('comics');
+    // dd($comics);
+    return view('partials.comics', compact('comics'));
 
 })->name('comics');
 
