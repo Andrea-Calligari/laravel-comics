@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-6">
-                    <h1>LOGO</h1>
+                    <h1 class="text-light">LOGO</h1>
                 </div>
                 <div class="col-6">
 

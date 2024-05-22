@@ -5,11 +5,11 @@
 
 @section('content')
 
-<section class="text-center">
+<section class="text-center text-light">
     <div class="container">
-        <h1 class="py-5">WELCOME COMICS GUYS!</h1>
+        <h1 class="py-5"> COMICS !</h1>
     </div>
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-4">
                 <div class="card">

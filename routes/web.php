@@ -15,17 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('layout.app');
+})->name('app');
+
+Route::get('/home', function () {
+    return view('partials.home');
 })->name('home');
 
 Route::get('/comics', function (){
 
-    return view('about.comics');
+    return view('partials.comics');
 
 })->name('comics');
 
 
 Route::get('/about-us', function (){
 
-     return view('about.about-us');
+     return view('partials.about-us');
 
  })->name('about-us');
