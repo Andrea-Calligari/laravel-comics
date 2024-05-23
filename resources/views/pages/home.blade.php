@@ -1,4 +1,7 @@
 @extends('layout.app')
+
+
+
 @section('content')
 
 <div class="container text-center text-light">

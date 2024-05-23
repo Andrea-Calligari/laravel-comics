@@ -25,7 +25,7 @@
 
     @include('partials.header')
 
-
+    @yield('hero-content')
 
     <main>
 
